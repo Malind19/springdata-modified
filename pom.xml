@@ -67,9 +67,9 @@
 				<version>2.4.2</version>
                 <configuration>
                     <image>
-                        <name>abc/xyz-${project.artifactId}:${project.version}</name>
+                        <name>crapp41d5.azurecr.io/springdatasample</name>
                     </image>
-                    <pullPolicy>IF_NOT_PRESENT</pullPolicy>
+					<pullPolicy>IF_NOT_PRESENT</pullPolicy>
                 </configuration>  
 			</plugin>
 
